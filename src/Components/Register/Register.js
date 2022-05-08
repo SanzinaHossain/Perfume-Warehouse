@@ -57,7 +57,7 @@ const Register = () => {
     Register
   </Button>
   <br/><br/>
-  <p className='text-center'>Already have an Account? <Link to="/login" className="text-danger pe-auto" onClick={navigateRegister}><u>Please Login!!</u></Link></p>
+  <p className='text-center'>Already have an Account? <Link to="/login" className="text-primary pe-auto" onClick={navigateRegister}><u>Please Login!!</u></Link></p>
 </Form>
     </div>
     </div>

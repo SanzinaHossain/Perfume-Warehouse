@@ -10,6 +10,12 @@
 @media only screen and (max-width:576px)
 {
     Button{
-        margin-left: 60px;
+        margin-left: 20px;
+    }
+    .login-button{
+        margin-left: 40px;
+    }
+    .google-button{
+        margin-left: 30px;
     }
 }
