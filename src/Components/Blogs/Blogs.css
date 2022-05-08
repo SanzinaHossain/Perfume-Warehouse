@@ -1,0 +1,15 @@
+.blogs{
+    border:2px solid lightblue;
+    border-radius: 10px;
+    margin:10px;
+    padding: 10px;
+    background-color:lightgrey;
+}
+.blog{
+    border:2px solid;
+    border-radius: 10px;
+    margin:10px;
+    padding: 10px;
+    background-color:black;
+    color:white;
+}
