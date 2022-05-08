@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Shared/Footer/Footer'
 import './Blogs.css'
 const Blogs = () => {
   return (
@@ -52,6 +53,7 @@ const Blogs = () => {
             </div>
         </div>
     </div>
+    <Footer></Footer>
   </div>
   )
 }
