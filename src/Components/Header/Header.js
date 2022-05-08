@@ -28,8 +28,8 @@ const Header = () => {
     <Nav className="fixed">
     {
         user&&<>
-        <Nav.Link as={Link} to="/addservice">Add service</Nav.Link>
-        <Nav.Link as={Link} to="/manageservice">Manage</Nav.Link></>
+        <Nav.Link as={Link} to="#">Manage Item</Nav.Link>
+        <Nav.Link as={Link} to="#">Add Item</Nav.Link></>
       }
       {
         user?

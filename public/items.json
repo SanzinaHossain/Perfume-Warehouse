@@ -1,69 +1,68 @@
 [
     {
-        "id":1,
        "img":"https://static.toiimg.com/thumb/msid-63080082,imgsize-293543,width-800,height-600,resizemode-75/63080082.jpg",
        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "name":"La Vie",
+        "quantity":17,
+        "Supplier":"La Vier",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
     },
     {
-        "id":2,
+      
         "img":"https://media.istockphoto.com/photos/glass-bottle-of-fragrant-eau-de-toilette-against-a-background-of-pink-picture-id1302870417?b=1&k=20&m=1302870417&s=170667a&w=0&h=gDYxXtXgh_YmR35b-i-tGRueugr6dCSgcNXIQM3kduk=",
-        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "price":280,
+        "name":"Mont Blanc",
+        "quantity":25,
+        "Supplier":"Mont serve",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
     },
     {
-        "id":3,
+        
        "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1637201505-y0996347-c099600764-e01-zhc-1637201482.jpg?crop=0.536xw:1.00xh;0.213xw,0&resize=480:*",
-       "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+       "price":120,
+        "name":"Acque Dior",
+        "quantity":19,
+        "Supplier":"Paco Curb",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
     },
     {
-        "id":4,
+        
         "img":"https://cdn.pixabay.com/photo/2018/08/27/15/09/safe-3635196__340.jpg",
-        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "price":500,
+        "name":"Paco Rab",
+        "quantity":21,
+        "Supplier":"Ksl Service",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
      },
      {
-        "id":5,
+        
         "img":"https://440industries.com/wp-content/uploads/2021/09/pexels-valeria-boltneva-1961792.jpg?ezimgfmt=rs:392x261/rscb35/ng:webp/ngcb35",
-        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "price":230,
+        "name":"Versace",
+        "quantity":18,
+        "Supplier":"versace Serve",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
      },
      {
-        "id":6,
+        
         "img":"https://www.cosmetify.com/images/guides/what-scents-are-best-for-men.jpg",
-        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "price":400,
+        "name":"Miss Dior",
+        "quantity":15,
+        "Supplier":"Umair collection",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
      },
      {
-        "id":7,
+        
         "img":"https://www.makeupmuddle.com/wp-content/uploads/2020/09/FCA50184-447B-4966-9E3C-DEAE06F1666C.jpeg.webp",
-        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "price":420,
+        "name":"TZP Mark",
+        "quantity":11,
+        "Supplier":"Zpm service",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
      },
      {
-        "id":8,
+      
         "img":"https://cdn.wallpaper.com/main/styles/fp_480x294/s3/2021/08/pat_landscape.jpg",
         "price":300,
         "name":"Tom Ford",
@@ -72,12 +71,11 @@
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
      },
      {
-        "id":9,
         "img":"https://www.clivechristian.com/wp-content/uploads/sb-instagram-feed-images/279229669_233104855687790_860266669518590629_nfull.jpg",
-        "price":300,
-        "name":"Tom Ford",
-        "quantity":10,
-        "Supplier":"KJP Serve",
+        "price":200,
+        "name":"Mark Zecob",
+        "quantity":30,
+        "Supplier":"Cosmectic col",
         "description":"Bring a world of captivating fragrance into the comfort of your own home. Brands like Sunescape and Crabtree & Evelyn have channeled all their aromatic expertise."
      }
 ]
