@@ -1,0 +1,14 @@
+.item{
+    border:1px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width:360px;
+    background-color:lavenderblush;
+}
+.item img{
+    height: 300px;
+}
+.item h2{
+    color:black;
+}
