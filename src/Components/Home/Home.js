@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../../Shared/Footer/Footer'
+import Ambassador from '../Ambassador/Ambassador'
 import Banner from '../Banner/Banner'
 import Items from '../Items/Items'
 
@@ -8,6 +9,7 @@ const Home = () => {
       <div>
           <Banner></Banner>
           <Items></Items>
+          <Ambassador></Ambassador>
           <Footer></Footer>
       </div>
   )

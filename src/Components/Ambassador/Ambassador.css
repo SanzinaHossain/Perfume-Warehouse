@@ -1,0 +1,14 @@
+.amb{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width:576px)
+{
+    .amb{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+}
