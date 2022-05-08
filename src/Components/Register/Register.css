@@ -1,0 +1,19 @@
+.register{
+    background-color:darkred;
+    padding:20px;
+    color:white;
+    font-weight: 600;
+}
+.register-button{
+    margin-left: 250px;
+}
+
+@media only screen and (max-width:576px)
+{
+    .register-button{
+        margin-left: 60px;
+    }
+    .google-button{
+        margin-left: 40px;
+    }
+}
