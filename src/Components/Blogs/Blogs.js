@@ -36,7 +36,7 @@ const Blogs = () => {
                 </p>
             </div>
             <div className='blog'>
-                <h1>3) What is the purpose of jwt and how does it work?</h1>
+                <h1>4) What is the purpose of jwt and how does it work?</h1>
                 <p><h4 className='text-danger'>Answer: </h4><h4 className='text-warning'>JWT:</h4>
                 JWT, or JSON Web Token, is an open standard used to share security information between two parties — a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
                 <h4 className='text-warning'>Its work:</h4>
