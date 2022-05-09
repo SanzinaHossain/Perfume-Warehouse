@@ -11,7 +11,7 @@ const Alldata = () => {
          .then(data=>setItems(data))
     },[])
   return (
-    <div>
+    <div className='container'>
         <div className='mt-2'>
             <Table striped bordered hover variant="dark">
             <thead>

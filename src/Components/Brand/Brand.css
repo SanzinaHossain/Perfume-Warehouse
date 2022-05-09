@@ -1,10 +1,10 @@
 .brand{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     justify-content: space-evenly;
 }
-.brand-box img
+.brand-box-img
 {
     height: 70px;
     width:50px;

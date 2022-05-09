@@ -19,6 +19,7 @@ const ShowDataTable = ({t}) => {
           .then(res=>res.json())
           .then(data=>{
               console.log(data);
+              document.location.reload(true)
               const remain=items.filter(s=>s._id!=id);
               setItems(remain)
           })

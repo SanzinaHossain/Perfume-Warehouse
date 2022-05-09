@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
+import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router-dom';
 import "./ManageItem.css";
 const ManageItem = () => {
+  const { register, handleSubmit}=useForm();
     const {id}=useParams();
     const [items,setItems]=useState({});
     useEffect(()=>{
@@ -12,21 +14,38 @@ const ManageItem = () => {
     const decreseitem=()=>{
       const{_id,img,price,name,quantity,supplier,description}=items;
       const url=`http://localhost:5000/items/${id}`;
-      const value=quantity-1;
-      const document={_id,img,price,name,value,supplier,description};
+      let value=quantity-1;
       //send to server side
       fetch(url,{
           method:'PUT',
           headers:{
               'content-type':'application/json'
           },
-          body:JSON.stringify(document)
+          body:JSON.stringify({quantity:value})
       })
         .then(res=>res.json())
         .then(data=>{
-            console.log("success",data);
-            alert("user updated successfully")
+            setItems({...items,quantity:value})
          })
+    }
+    const handlequantity = event => {
+      const{_id,img,price,name,quantity,supplier,description}=items;
+      event.preventDefault();
+      const qtn=parseInt(event.target.quantity.value);
+      let value=parseInt(quantity)+qtn;
+      const url=`http://localhost:5000/items/${id}`;
+      fetch(url,{
+          method:'PUT',
+          headers:{
+              'content-type':'application/json'
+          },
+          body:JSON.stringify({quantity:value})
+      })
+      .then(res=>res.json())
+      .then(data=>{
+        console.log(data)
+          setItems({...items,quantity:parseInt(quantity)+(qtn)});
+      })
     }
   return (
     <div className='item container mt-3 box'>
@@ -37,6 +56,12 @@ const ManageItem = () => {
         <h4>Supplier Name:{items.Supplier}</h4>
         <p>{items.description}</p>
         <button onClick={decreseitem} className='btn btn-warning mb-2'>Delivery</button>
+        <div>
+          <form onSubmit={handlequantity}>
+         <input type="number" name="quantity" id="" placeholder='Enter some quantity' />
+           <input type="submit" value="Add Quantity" />
+        </form>
+        </div>
     </div>
 
   )

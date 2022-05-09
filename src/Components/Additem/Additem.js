@@ -1,8 +1,10 @@
 import React from 'react'
 import { useForm } from 'react-hook-form';
+import { Navigate, useNavigate } from 'react-router-dom';
 import Loading from '../../Shared/Loading/Loading';
 
 const Additem = () => {
+    const navigate=useNavigate();
     const { register, handleSubmit}=useForm();
   const onSubmit = data => {
       console.log(data);
@@ -16,7 +18,7 @@ const Additem = () => {
       })
       .then(res=>res.json())
       .then(data=>{
-          console.log(data);
+          navigate(`/alldata`);
       })
   }
   return (
