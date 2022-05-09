@@ -12,6 +12,9 @@ import NoPageFound from './Components/NoPageFound/NoPageFound';
 import ManageItem from './Components/ManageItem/ManageItem';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
 import ItemDetails from './Components/ItemDetails/ItemDetails';
+import Alldata from './Components/Alldata/Alldata';
+import Additem from './Components/Additem/Additem';
+import ShowDataTable from './Components/ShowDataTable/ShowDataTable';
 function App() {
   return (
     <div>
@@ -19,6 +22,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+      <Route path="/showdatatable" element={<ShowDataTable></ShowDataTable>}></Route>
       <Route path="/about" element={<About></About>}></Route>
       <Route path="/login" element={<Login></Login>}></Route>
       <Route path="/items/:id" element={<ItemDetails></ItemDetails>}></Route>
@@ -26,6 +30,16 @@ function App() {
       <Route path="/manageitem/:id" element={
           <RequireAuth>
             <ManageItem ></ManageItem>
+          </RequireAuth>
+        }></Route>
+        <Route path="/additem" element={
+          <RequireAuth>
+             <Additem></Additem>
+          </RequireAuth>
+        }></Route>
+         <Route path="/alldata" element={
+          <RequireAuth>
+             <Alldata></Alldata>
           </RequireAuth>
         }></Route>
       <Route path="*" element={<NoPageFound></NoPageFound>}></Route>

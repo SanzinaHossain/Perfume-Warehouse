@@ -18,7 +18,7 @@ const ItemDetails = () => {
     
     <div className='text-center mt-5'>
         {/* <Link to="/manageitem"> */}
-          <button onClick={()=>navigatetoservicedetails(id)}className='btn btn-primary'>Proceed Manage Item:{id}</button>
+          <button onClick={()=>navigatetoservicedetails(id)}className='btn btn-primary'>Proceed Manage Item</button>
         {/* //</Link> */}
     </div>
   )
