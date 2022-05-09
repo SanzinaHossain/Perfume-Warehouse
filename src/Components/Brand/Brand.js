@@ -11,20 +11,18 @@ const Brand = () => {
         <h1 className='text-center text-danger mt-3 mb-5'>Top Perfume & Cologne Brands</h1>
     <div className='brand'>
       <div className='item container brand-box'>
-        <img className="w-100 brand-box-img"src={pic1} alt=""/>
+        <img className="w-100 h-50 brand-box-img"src={pic1} alt=""/>
+        <p>Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.</p>
        </div>
        <div className='item container brand-box'>
-        <img className="w-100 brand-box-img"src={pic2} alt=""/>
+        <img className="w-100 h-50 brand-box-img"src={pic2} alt=""/>
+        <p>Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.</p>
        </div>
        <div className='item container brand-box'>
-        <img className="w-100 brand-box-img"src={pic3} alt=""/>
+        <img className="w-100 h-50 brand-box-img"src={pic3} alt=""/>
+        <p>Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents – typically alcohol and water.</p>
        </div>
-       <div className='item container brand-box'>
-        <img className="w-100 brand-box-img"src={pic4} alt=""/>
-       </div>
-       <div className='item container brand-box'>
-        <img className="w-100 brand-box-img"src={pic5} alt=""/>
-       </div>
+      
         </div>
     </div>
   )
