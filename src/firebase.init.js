@@ -16,19 +16,19 @@ import {getAuth} from "firebase/auth"
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyAFmVIhSqN2Ftbtj5xHVIAC_qijyMkse4Y",
+  apiKey: process.env.REACT_APP_apiKey,
 
-  authDomain: "assignment-no-11-6401b.firebaseapp.com",
+  authDomain: process.env.REACT_APP_authDomain,
 
-  projectId: "assignment-no-11-6401b",
+  projectId:process.env.REACT_APP_projectId,
 
-  storageBucket: "assignment-no-11-6401b.appspot.com",
+  storageBucket:process.env.REACT_APP_storageBucket ,
 
-  messagingSenderId: "788770656926",
+  messagingSenderId:process.env.REACT_APP_messagingSenderId ,
 
-  appId: "1:788770656926:web:a53a1fe8a290f58539618f",
+  appId:process.env.REACT_APP_appId ,
 
-  measurementId: "G-MEZGWGSFQL"
+  measurementId: process.env.REACT_APP_measurementId,
 
 };
 

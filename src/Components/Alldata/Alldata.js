@@ -25,7 +25,6 @@ const Alldata = () => {
                 <th>Quantity</th>
                 <th>Supplier Name</th>
                 <th>Delete Item</th>
-                <th>Add Item</th>
               </tr>
             </thead>
             <tbody>
