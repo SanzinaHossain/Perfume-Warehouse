@@ -15,6 +15,7 @@ import ItemDetails from './Components/ItemDetails/ItemDetails';
 import Alldata from './Components/Alldata/Alldata';
 import Additem from './Components/Additem/Additem';
 import ShowDataTable from './Components/ShowDataTable/ShowDataTable';
+import MyItem from './Components/MyItems/MyItem';
 function App() {
   return (
     <div>
@@ -40,6 +41,11 @@ function App() {
          <Route path="/alldata" element={
           <RequireAuth>
              <Alldata></Alldata>
+          </RequireAuth>
+        }></Route>
+        <Route path="myitem" element={
+          <RequireAuth>
+             <MyItem></MyItem>
           </RequireAuth>
         }></Route>
       <Route path="*" element={<NoPageFound></NoPageFound>}></Route>
