@@ -10,7 +10,7 @@ const MyItem = () => {
   const [isloading,setIsloading]=useState(true);
   const [items,setItems]=useState([]);
     useEffect(()=>{
-        const url="http://localhost:5000/items";
+        const url="https://murmuring-plains-44040.herokuapp.com/items";
         const e=user.email;
         fetch(url)
          .then(res=>res.json())

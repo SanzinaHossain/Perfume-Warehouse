@@ -6,7 +6,7 @@ const ItemDetails = () => {
     //console.log(id);
     const [items,setItems]=useState({});
     useEffect(()=>{
-      fetch(`http://localhost:5000/items/${id}`)
+      fetch(`https://murmuring-plains-44040.herokuapp.com/items/${id}`)
       .then(res=>res.json())
       .then(data=>setItems(data))
     },[])

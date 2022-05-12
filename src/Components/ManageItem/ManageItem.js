@@ -13,7 +13,7 @@ const ManageItem = () => {
     },[])
     const decreseitem=()=>{
       const{_id,img,price,name,quantity,supplier,description}=items;
-      const url=`http://localhost:5000/items/${id}`;
+      const url=`https://murmuring-plains-44040.herokuapp.com/items/${id}`;
       let value=quantity-1;
       //send to server side
       fetch(url,{
@@ -33,7 +33,7 @@ const ManageItem = () => {
       event.preventDefault();
       const qtn=parseInt(event.target.quantity.value);
       let value=parseInt(quantity)+qtn;
-      const url=`http://localhost:5000/items/${id}`;
+      const url=`https://murmuring-plains-44040.herokuapp.com/items/${id}`;
       fetch(url,{
           method:'PUT',
           headers:{

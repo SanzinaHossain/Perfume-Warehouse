@@ -11,7 +11,7 @@ const Additem = () => {
     const [user]=useAuthState(auth)
     const onSubmit = data => {
       console.log(data);
-      const url=`http://localhost:5000/items`;
+      const url=`https://murmuring-plains-44040.herokuapp.com/items`;
       fetch(url,{
           method:'POST',
           headers:{

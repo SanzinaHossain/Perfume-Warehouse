@@ -6,7 +6,7 @@ const Items = () => {
     const [items,setItems]=useState([])
     const[isloading,setIsloading]=useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/items')
+        fetch('https://murmuring-plains-44040.herokuapp.com/items')
          .then(res=>res.json())
          .then(data=>{
            setIsloading(false);

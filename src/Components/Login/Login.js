@@ -34,7 +34,7 @@ const Login = () => {
         const email=emailRef.current.value;
         const password=passwordRef.current.value;
         signInWithEmailAndPassword(email,password);
-        const url=`http://localhost:5000/login`;
+        const url=`https://murmuring-plains-44040.herokuapp.com/login`;
         fetch(url,{
             method:'POST',
             headers:{
