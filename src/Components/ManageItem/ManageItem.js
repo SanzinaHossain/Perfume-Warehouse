@@ -48,7 +48,7 @@ const ManageItem = () => {
       })
     }
   return (
-    <div className='item container mt-3 box'>
+    <div className='item container mt-3 box mb-3'>
         <img className="w-100"src={items.img} alt=""/>
         <h2 className='mt-3'>{items.name}</h2>
         <h4>Price:{items.price}</h4>
@@ -57,9 +57,9 @@ const ManageItem = () => {
         <p>{items.description}</p>
         <button onClick={decreseitem} className='btn btn-warning mb-2'>Delivery</button>
         <div>
-          <form onSubmit={handlequantity}>
-         <input type="number" name="quantity" id="" placeholder='Enter some quantity' />
-           <input type="submit" value="Add Quantity" />
+          <form className='d-flex flex-column' onSubmit={handlequantity}>
+         <input type="number" name="quantity" id="" placeholder='Update Quantity' />
+           <input className='btn btn-warning mt-3 mb-2' type="submit" value="Update Quantity" />
         </form>
         </div>
     </div>

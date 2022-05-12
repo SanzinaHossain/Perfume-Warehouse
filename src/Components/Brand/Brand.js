@@ -10,14 +10,22 @@ const Brand = () => {
     <div className='mb-5'>
         <h1 className='text-center text-danger mt-3 mb-5'>Top Perfume & Cologne Brands</h1>
     <div className='brand'>
-      <div className='item container brand-box'>
+      <div className=' item-brand container brand-box'>
         <img className="w-100 h-100 brand-box-img"src={pic1} alt=""/>
        </div>
-       <div className='item container brand-box'>
+       <div className='item-brand container brand-box'>
         <img className="w-100 h-100 brand-box-img"src={pic2} alt=""/>
        </div>
-       <div className='item container brand-box'>
+       <div className='item-brand container brand-box'>
         <img className="w-100 h-100 brand-box-img"src={pic3} alt=""/>
+        
+       </div>
+       <div className='item-brand container brand-box'>
+        <img className="w-100 h-100 brand-box-img"src={pic4} alt=""/>
+        
+       </div>
+       <div className='item-brand container brand-box'>
+        <img className="w-100 h-100 brand-box-img"src={pic5} alt=""/>
         
        </div>
       

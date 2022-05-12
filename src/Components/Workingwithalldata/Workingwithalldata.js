@@ -6,9 +6,6 @@ const Workingwithalldata = () => {
     const navigatetoservicedetails=()=>{
       navigate(`/alldata`);
     }
-    const additem=()=>{
-        navigate(`/additem`)
-    }
   return (
     <div className='w-50 mx-auto'>
         

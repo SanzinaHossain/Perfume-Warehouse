@@ -1,6 +1,16 @@
+.item-brand{
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    width:200px;
+    background-color:lightcoral;
+}
+.item-brand img{
+    height:200px;
+}
 .brand{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-gap: 10px;
     justify-content: space-evenly;
 }

@@ -17,7 +17,7 @@ const Alldata = () => {
   return (
     <div className='container'>
         <div className='mt-2'>
-            <Table striped bordered hover variant="dark">
+            <Table striped bordered hover variant="dark" responsive="sm">
             <thead>
               <tr>
                 <th>Name</th>

@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Table } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -6,25 +7,25 @@ import Loading from "../../Shared/Loading/Loading";
 import MyitemsData from '../MyitemsData/MyitemsData';
 const MyItem = () => {
   const [user]=useAuthState(auth);
-  const e=user.email;
-  console.log(e)
   const [isloading,setIsloading]=useState(true);
-  const [items,setItems]=useState([])
+  const [items,setItems]=useState([]);
     useEffect(()=>{
-        fetch("http://localhost:5000/items")
+        const url="http://localhost:5000/items";
+        const e=user.email;
+        fetch(url)
          .then(res=>res.json())
          .then(data=>{
             const d=data.filter(s=>s.email==e);
             console.log(d)
             setItems(d)
             setIsloading(false)
-          })
+            })
     },[])
   return (
     <div>
       <div className='container'>
         <div className='mt-2'>
-            <Table striped bordered hover variant="dark">
+            <Table striped bordered hover variant="dark" responsive="sm">
             <thead>
               <tr>
                 <th>Email</th>
